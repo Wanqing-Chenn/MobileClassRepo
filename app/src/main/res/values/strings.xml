@@ -3,4 +3,6 @@
     <string name="username_hint">Username</string>
     <string name="password_hint">Password</string>
     <string name="login_button">Login</string>
+    <string name="welcome_message">Welcome to Movie Review App!</string>
+    <string name="profile_button_text">Profile</string>
 </resources>
