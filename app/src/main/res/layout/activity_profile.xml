@@ -5,13 +5,17 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <!-- Profile Username Text -->
     <TextView
-        android:id="@+id/textViewUserProfile"
+        android:id="@+id/textViewProfileUserName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User Profile"
+        android:text="@string/profile_username"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Other profile elements -->
+    <!-- Add additional TextViews, ImageViews, etc. as needed -->
 
 </LinearLayout>
