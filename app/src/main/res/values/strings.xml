@@ -5,4 +5,6 @@
     <string name="login_button">Login</string>
     <string name="welcome_message">Welcome to Movie Review App!</string>
     <string name="profile_button_text">Profile</string>
+    <string name="hello_user">Hello, User</string>
+    <string name="logout">Logout</string>
 </resources>

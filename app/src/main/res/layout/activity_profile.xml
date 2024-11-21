@@ -5,17 +5,21 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <!-- Profile Username Text -->
+    <!-- Profile Information -->
     <TextView
-        android:id="@+id/textViewProfileUserName"
+        android:id="@+id/profileUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/profile_username"
+        android:text="@string/hello_user"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp" />
 
-    <!-- Other profile elements -->
-    <!-- Add additional TextViews, ImageViews, etc. as needed -->
-
+    <!-- Logout Button -->
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logout"
+        android:layout_gravity="center" />
 </LinearLayout>
