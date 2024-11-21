@@ -6,6 +6,16 @@
     android:orientation="vertical"
     android:padding="16dp">
 
+    <!-- Profile Button to navigate to ProfileActivity -->
+    <Button
+        android:id="@+id/profileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Profile"
+        android:layout_marginBottom="16dp"
+        android:layout_gravity="end" /> <!-- Align the button to the right -->
+
+    <!-- User name display -->
     <TextView
         android:id="@+id/textViewUserName"
         android:layout_width="wrap_content"
@@ -14,6 +24,7 @@
         android:textStyle="bold"
         android:layout_marginBottom="16dp"/>
 
+    <!-- Section for Trending Now -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -28,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"/>
 
+    <!-- Section for New Releases -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
