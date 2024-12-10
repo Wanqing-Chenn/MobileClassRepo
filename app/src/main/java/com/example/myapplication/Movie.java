@@ -1,10 +1,10 @@
 package com.example.myapplication;
 
 public class Movie {
-    private String title;
-    private String genre;
-    private float rating;
-    private int imageResourceId;
+    private final String title;
+    private final String genre;
+    private final float rating;
+    private final int imageResourceId;
 
     public Movie(String title, String genre, float rating, int imageResourceId) {
         this.title = title;

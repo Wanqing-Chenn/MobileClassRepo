@@ -1,4 +1,9 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.
 plugins {
-    alias(libs.plugins.android.application) apply false
+    // This is for project-wide plugins (optional)
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0" apply false
+}
+
+repositories {
+    google()
+    mavenCentral()
 }

@@ -5,4 +5,18 @@
     <string name="login_button">Login</string>
     <string name="welcome_message">Welcome to Movie Review App!</string>
     <string name="profile_button_text">Profile</string>
+    <string name="hello_user">Hello, User!</string>
+    <string name="logout">Hello, User!</string>
+    <string name="go_to_profile">Go to Profile</string>
+    <string name="trending_now">Trending Now</string>
+    <string name="new_releases">New Releases</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="welcome_to_your_profile">Welcome to your profile!</string>
+    <string name="movies_watched">Movies Watched:</string>
+    <string name="profile_page">Profile Page</string>
+    <string name="selected_movie">Selected Movie:</string>
+
 </resources>

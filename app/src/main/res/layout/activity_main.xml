@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/password"
         android:layout_marginTop="112dp"
-        android:text="Login" />
+        android:text="@string/login" />
 
     <Button
         android:id="@+id/registerLinkButton"
@@ -36,7 +36,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/username"
         android:layout_marginTop="110dp"
-        android:text="Register" />
+        android:text="@string/register" />
 
 
 </RelativeLayout>

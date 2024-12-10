@@ -8,23 +8,25 @@
         android:id="@+id/registerUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Username"
-        android:layout_marginBottom="16dp" />
+        android:hint="@string/enter_username"
+        android:layout_marginBottom="16dp"
+        android:importantForAutofill="no" />
 
     <EditText
         android:id="@+id/registerPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter Password"
+        android:hint="@string/enter_password"
         android:layout_below="@id/registerUsername"
         android:layout_marginTop="16dp"
+        android:importantForAutofill="no"
         android:inputType="textPassword" />
 
     <Button
         android:id="@+id/registerButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
+        android:text="@string/register"
         android:layout_below="@id/registerPassword"
         android:layout_marginTop="16dp"
         android:layout_centerHorizontal="true" />
