@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardView"  <!-- Ensure cardView ID is here -->
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:padding="8dp">
+
+<LinearLayout
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<ImageView
+    android:id="@+id/imageView"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/img_movie_avengers"/>
+
+<TextView
+    android:id="@+id/textViewTitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Movie Title"
+    android:textSize="18sp"
+    android:textStyle="bold"/>
+
+<TextView
+    android:id="@+id/textViewGenre"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Genre"/>
+
+<TextView
+    android:id="@+id/textViewRating"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Rating"/>
+
+<TextView
+    android:id="@+id/textViewReview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="No review available."
+    android:textColor="@android:color/black"/>
+
+<EditText
+    android:id="@+id/editTextReview"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Write a review"
+    android:visibility="gone"/>
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
