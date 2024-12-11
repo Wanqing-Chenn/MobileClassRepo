@@ -73,4 +73,5 @@ public class HomeActivity extends AppCompatActivity {
         // Set welcome message
         userNameText.setText("Welcome back, User");
     }
+
 }
