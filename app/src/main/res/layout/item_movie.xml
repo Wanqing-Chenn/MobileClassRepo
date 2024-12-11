@@ -1,46 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/cardView"
-    android:layout_width="150dp"
-    android:layout_height="220dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_margin="8dp"
     app:cardCornerRadius="8dp"
-    app:cardElevation="4dp">
+    app:cardElevation="4dp"
+    tools:context=".HomeActivity">
 
     <LinearLayout
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:padding="16dp">
 
+        <!-- Movie Image -->
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:scaleType="centerCrop"/>
+            android:layout_height="200dp"
+            android:src="@drawable/ic_launcher_background" />
 
+        <!-- Movie Title -->
         <TextView
             android:id="@+id/textViewTitle"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="4dp"
-            android:textStyle="bold"/>
+            android:text="Movie Title"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
 
+        <!-- Movie Genre -->
         <TextView
             android:id="@+id/textViewGenre"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:textSize="12sp"/>
+            android:text="Action"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"/>
 
+        <!-- Movie Rating -->
         <TextView
             android:id="@+id/textViewRating"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:textColor="#FFC107"
-            android:textStyle="bold"/>
+            android:text="Rating: 4.5"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"/>
 
     </LinearLayout>
 

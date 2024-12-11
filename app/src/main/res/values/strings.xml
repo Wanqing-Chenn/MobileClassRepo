@@ -18,5 +18,9 @@
     <string name="movies_watched">Movies Watched:</string>
     <string name="profile_page">Profile Page</string>
     <string name="selected_movie">Selected Movie:</string>
+    <string name="my_movies">My Movies</string>
+    <string name="my_reviews">My Reviews</string>
+    <string name="write_your_review_here">Write your review here</string>
+    <string name="submit_review">Submit Review</string>
 
 </resources>
