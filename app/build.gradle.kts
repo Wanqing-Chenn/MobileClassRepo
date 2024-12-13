@@ -32,6 +32,10 @@ dependencies {
     implementation(libs.recyclerview)
     implementation(libs.material)
     implementation(libs.junit)  // Make sure this dependency is added
+    implementation("androidx.recyclerview:recyclerview:1.3.1")
+    implementation("com.google.android.material:material:1.9.0")
+
+
 }
 
 repositories {
